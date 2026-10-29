@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 330" role="img" aria-labelledby="title desc">
+<title id="title">Auto Car Serviços Viseu</title><desc id="desc">Emblema automóvel Auto Car Serviços Viseu em preto, cinza e branco.</desc>
+<defs><linearGradient id="metal" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#a9a9ad"/></linearGradient></defs>
+<path d="M118 72 L136 28 L160 44 L181 16 L205 42 L228 31 L245 56 Q320 40 378 74 L430 91 L454 119 L438 139 L433 232 L260 315 L86 232 L80 139 L62 120 L89 91Z" fill="#080808" stroke="url(#metal)" stroke-width="9" stroke-linejoin="round"/>
+<path d="M94 116 L132 94 Q184 85 228 88 L282 61 Q337 48 382 77 L433 104 L400 105 Q361 76 320 81 L270 101 L152 106Z" fill="#f4f4f4"/>
+<path d="M96 125 Q175 111 251 119 L319 119 Q370 116 425 126" fill="none" stroke="#aaa" stroke-width="5"/>
+<text x="260" y="157" text-anchor="middle" font-family="Montserrat,Arial,sans-serif" font-size="57" font-weight="900" font-style="italic" fill="#fff" letter-spacing="-3">AUTO CAR</text>
+<path d="M101 170 H419" stroke="#c9c9cc" stroke-width="5"/>
+<text x="260" y="196" text-anchor="middle" font-family="Montserrat,Arial,sans-serif" font-size="24" font-weight="800" fill="#eee" letter-spacing="7">SERVIÇOS</text>
+<text x="260" y="224" text-anchor="middle" font-family="Montserrat,Arial,sans-serif" font-size="21" font-weight="800" fill="#aaa" letter-spacing="8">VISEU</text>
+<g fill="none" stroke="#ddd" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+<circle cx="135" cy="252" r="18"/><circle cx="135" cy="252" r="8"/><path d="M127 234v-6m16 6v-6m-16 42v-6m16 6v-6"/>
+<rect x="182" y="235" width="42" height="34" rx="4"/><path d="M190 252h9l5-8 5 16 5-8h4"/>
+<path d="M255 264l24-24m-6-5 11 11m-33 18-5 9 10-4"/><path d="M330 242h37l-5 13h-28zM335 255v11m26-11v11"/>
+<circle cx="401" cy="252" r="18"/><circle cx="401" cy="252" r="8"/><path d="M393 234v-6m16 6v-6m-16 42v-6m16 6v-6"/>
+</g></svg>
