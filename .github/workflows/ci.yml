@@ -1,0 +1,28 @@
+name: Validate Auto Car Viseu
+on:
+  push:
+    branches: [main, "feat/**"]
+  pull_request:
+    branches: [main]
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm install
+      - run: npm run typecheck
+      - run: npm run lint
+      - run: npm run build
+        env:
+          NEXT_PUBLIC_APP_URL: http://localhost:3000
+          NEXT_PUBLIC_SUPABASE_URL: https://example.supabase.co
+          NEXT_PUBLIC_SUPABASE_ANON_KEY: example-anon-key
+          SUPABASE_SERVICE_ROLE_KEY: example-service-role-key
+          GOOGLE_CLIENT_ID: example.apps.googleusercontent.com
+          GOOGLE_CLIENT_SECRET: example-google-secret
+          GOOGLE_REDIRECT_URI: http://localhost:3000/api/admin/google/callback
+          GOOGLE_CALENDAR_ID: primary
+          TOKEN_ENCRYPTION_KEY: 0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef
