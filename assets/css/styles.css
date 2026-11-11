@@ -24,3 +24,10 @@ footer{background:#090a0c;color:#a9aab0;padding:30px 0;font-size:12px}.foot{disp
 @media(max-width:700px){.brand{flex:0 0 76px;width:76px;min-width:76px;min-height:76px}.brand img{width:76px!important;height:76px!important;min-width:76px}}
 /* Image cards: stable layout while photographs load. */
 .service img{display:block;width:100%;height:220px;aspect-ratio:4/3;object-fit:contain;background:#15161a}.about-photo img{display:block;width:100%;height:auto;object-fit:contain;background:#15161a}
+
+/* Final image layout: consistent cards, full photographs, no cropping or distortion. */
+.service img{width:100%;height:220px;aspect-ratio:4/3;object-fit:contain;object-position:center;background:#15161a}
+.about-photo img{width:100%;height:auto;max-height:560px;object-fit:contain;object-position:center;background:#15161a}
+@media(max-width:900px){.service img{height:200px}}
+@media(max-width:700px){.service img{height:190px}}
+@media(max-width:420px){.service img{height:220px}}
